@@ -1,3 +1,48 @@
 :root{
-    
+    --darkTan:tan;
+    --darkColor:black;
+    --grey:#978f87;
+    --popRed:darkred;
+    /* Fonts to use: Brittany, Bebas Neue, Poppins*/
+}
+
+body{
+    background-color: var(--darkTan);
+    margin: 0;
+}
+header{
+    background-color: var(--grey);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+nav{
+    margin-right: auto;
+    float:inline-end;
+}
+nav a{
+    border-radius: 5px;
+    background-color: silver;
+    border: 2px solid var(--popRed);
+
+}
+a:link{
+    color: var(--darkColor);
+}
+a:visited{
+    color: var(--popRed);
+}
+#selfie{
+    border-radius: 10px;
+    border:5px solid var(--popRed);
+    max-width: 10%;
+    max-height: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#aboutMe{
+    background-color: var(--grey);
+    font-family: Arial, Helvetica, sans-serif;
 }
