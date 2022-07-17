@@ -1,39 +1,45 @@
-:root{
-    --darkTan:tan;
-    --darkColor:black;
-    --grey:#978f87;
-    --popRed:darkred;
+:root {
+    --darkTan: tan;
+    --darkColor: black;
+    --grey: #978f87;
+    --popRed: darkred;
     /* Fonts to use: Brittany, Bebas Neue, Poppins*/
 }
 
-body{
+body {
     background-color: var(--grey);
     margin: 0;
 }
-header{
+
+header {
     background-color: var(--grey);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
-nav{
+
+nav {
     margin-right: auto;
-    float:inline-end;
+    float: inline-end;
 }
-nav a{
+
+nav a {
     border-radius: 5px;
     background-color: silver;
     border: 2px solid var(--popRed);
 
 }
-a:link{
+
+a:link {
     color: var(--darkColor);
 }
-a:visited{
+
+a:visited {
     color: var(--popRed);
 }
-#selfie{
+
+#selfie {
     border-radius: 10px;
-    border:5px solid var(--popRed);
+    border: 5px solid var(--popRed);
     max-width: 10%;
     max-height: 10%;
     display: block;
@@ -42,43 +48,45 @@ a:visited{
     width: 50%;
 }
 
-#aboutMe{
+#aboutMe {
     background-color: var(--grey);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.row{
-display: flex;
-background-color: var(--darkColor);
+.row {
+    display: flex;
+    background-color: var(--darkColor);
 }
 
 .column {
     flex: 33.33%;
     padding: 5px;
-  }
-
-.secondaryImages{
-max-width: 95%;
-max-height: 95%;
 }
 
-#projectHighlight{
+.secondaryImages {
+    max-width: 95%;
+    max-height: 95%;
+}
+
+#projectHighlight {
     display: flex;
-    flex:auto;
+    flex: auto;
     justify-content: center;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
 
 }
-#primaryImage{
+
+#primaryImage {
     display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
 
 }
-article a:hover{
+
+article a:hover {
     border-radius: 5px;
     border: 2px solid var(--popRed)
 }
