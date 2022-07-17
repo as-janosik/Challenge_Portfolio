@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: var(--darkTan);
+    background-color: var(--grey);
     margin: 0;
 }
 header{
@@ -45,4 +45,40 @@ a:visited{
 #aboutMe{
     background-color: var(--grey);
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.row{
+display: flex;
+background-color: var(--darkColor);
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+.secondaryImages{
+max-width: 95%;
+max-height: 95%;
+}
+
+#projectHighlight{
+    display: flex;
+    flex:auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#primaryImage{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+}
+article a:hover{
+    border-radius: 5px;
+    border: 2px solid var(--popRed)
 }
