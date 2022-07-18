@@ -1,8 +1,8 @@
 :root {
-    --darkTan: tan;
-    --darkColor: black;
-    --grey: #978f87;
-    --popRed: darkred;
+    --darkTan: #FEF6EE;
+    --darkColor: #1F2A37;
+    --grey: #C4CAC6;
+    --popRed:#623027;
     /* Fonts to use: Brittany, Bebas Neue, Poppins*/
 }
 
@@ -13,6 +13,7 @@ body {
 
 header {
     background-color: var(--grey);
+    background-image: url(../images/misty-forest.jpeg);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
@@ -40,8 +41,8 @@ a:visited {
 #selfie {
     border-radius: 10px;
     border: 5px solid var(--popRed);
-    max-width: 10%;
-    max-height: 10%;
+    max-width: 15%;
+    max-height: 15%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -66,13 +67,14 @@ a:visited {
 .secondaryImages {
     max-width: 95%;
     max-height: 95%;
+    border-radius: 10px;
 }
 
 #projectHighlight {
-    display: flex;
-    flex: auto;
+    /*display: flex;*/
+    /*flex: auto;*/
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
     margin-left: auto;
     margin-right: auto;
 
@@ -82,6 +84,7 @@ a:visited {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10px;
     /*width: 80%;*/
 
 }
@@ -90,3 +93,27 @@ article a:hover {
     border-radius: 5px;
     border: 2px solid var(--popRed)
 }
+
+h3{
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+    header {
+      background: #772014;
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #bb8588;
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: #8ac4ff;
+    }
+  }
