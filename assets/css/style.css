@@ -89,9 +89,9 @@ a:visited {
 
 }
 
-article a:hover {
-    border-radius: 5px;
-    border: 2px solid var(--popRed)
+article img:hover {
+    /*border-radius: 5px;*/
+    border: 2px solid var(--darkTan);
 }
 
 h3{
