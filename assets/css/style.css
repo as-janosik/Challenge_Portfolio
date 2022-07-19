@@ -1,14 +1,16 @@
 :root {
-    --darkTan: #FEF6EE;
+    --lightColor: #FEF6EE;
     --darkColor: #1F2A37;
     --grey: #C4CAC6;
-    --popRed:#623027;
+    --popRed: #623027;
     /* Fonts to use: Brittany, Bebas Neue, Poppins*/
 }
 
-body {
+html, body {
     background-color: var(--grey);
     margin: 0;
+    width: 100%;
+    padding: 0;
 }
 
 header {
@@ -85,35 +87,27 @@ a:visited {
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    /*width: 80%;*/
+    width: 100%;
 
 }
 
 article img:hover {
     /*border-radius: 5px;*/
-    border: 2px solid var(--darkTan);
+    border: 2px solid var(--lightColor);
 }
 
-h3{
+h3 {
     color: white;
 }
 
-@media screen and (max-width: 992px) {
-    header {
-      background: #772014;
+/* large smartphones*/
+@media screen and (max-width: 768px) {
+    section.row{
+        flex-direction: column;
+        display:flex;
+        justify-content: center;
     }
-  }
-  
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-    nav {
-      background-color: #bb8588;
+    .secondaryImages{
+        max-width: 100%;
     }
-  }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: #8ac4ff;
-    }
-  }
+}
