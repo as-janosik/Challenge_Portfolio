@@ -6,6 +6,10 @@ This is the Portfolio site created during bootcamp.
 
 This will be used as a portfolio to display future work/projects.  Currently this version is practicing creating flexbox/css/html from scratch. 
 
+Current version of site can be found here:
+https://as-janosik.github.io/Challenge_Portfolio/
+
+
 ## Getting Started
 This site is a portfolio with contact information, projects and resume for myself.  
 ### Dependencies
